@@ -1,0 +1,35 @@
+{
+  "name": "weather-plus",
+  "version": "1.0.0",
+  "description": "Weather Forecast App",
+  "main": "index.js",
+  "repository": "git@github.com:ryanakiyama/weather-plus.git",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "author": "Ryan Akiyama",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-preset-stage-1": "^6.1.18",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "lodash": "^3.10.1",
+    "popper.js": "^1.12.9",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "4.3.0",
+    "react-router": "^2.0.1",
+    "react-sparklines": "^1.5.0",
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.3"
+  }
+}
