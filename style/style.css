@@ -4,9 +4,14 @@ td, th {
 }
 
 .input-group {
-  margin: 20px 0px;
+  margin: 20px 20px;
 }
 
 svg {
-  height: 50px;
+  height: 145px;
+}
+
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
 }
